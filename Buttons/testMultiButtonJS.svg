@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="512"
+   height="512"
+   id="svg2">
+   
+   <script xlink:href="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" />
+   <script xlink:href="multi-buttonJS.js" />
+   
+  <defs id="defs4">
+  
+    <linearGradient
+       id="grad_surface">
+      <stop
+         id="stop3793"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3795"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+	
+    <linearGradient
+       id="grad_edge">
+      <stop
+         id="stop3767"
+         style="stop-color:#454545;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3771"
+         style="stop-color:#1e1e1e;stop-opacity:1"
+         offset="0.5" />
+      <stop
+         id="stop3773"
+         style="stop-color:#b8b8b8;stop-opacity:1"
+         offset="0.5" />
+      <stop
+         id="stop3775"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1" />
+      <stop
+         id="stop3769"
+         style="stop-color:#d8d8d8;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+	 
+	<linearGradient
+       x1="230"
+       y1="242"
+       x2="295"
+       y2="307"
+       id="buttonEdgeDown"
+       xlink:href="#grad_edge"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-4,-16)" />
+	   
+	<linearGradient
+       x2="260"
+       y2="207"
+       x1="260"
+       y1="327"
+       id="buttonSurfaceDown"
+       xlink:href="#grad_surface"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-4,-16)" /> 
+	 
+    <linearGradient
+       x1="260"
+       y1="207"
+       x2="260"
+       y2="327"
+       id="buttonSurfaceUp"
+       xlink:href="#grad_surface"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-4,-16)" />
+	   
+    <linearGradient
+       x2="230"
+       y2="242"
+       x1="295"
+       y1="307"
+       id="buttonEdgeUp"
+       xlink:href="#grad_edge"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-4,-16)" />  
+  </defs>
+  
+	<g>
+		<text
+			x="256"
+			y="100"
+			text-anchor="middle"
+			id="val"
+			xml:space="preserve"
+			style="font-size:16px;
+			font-style:normal;
+			font-variant:normal;
+			font-weight:normal;
+			font-stretch:normal;
+			line-height:125%;
+			letter-spacing:0px;
+			word-spacing:0px;
+			fill:#000000;
+			fill-opacity:1;
+			stroke:none;
+			font-family:Arial;">
+		-
+		</text>
+	</g>
+  
+  <g class="grpbtn" id="button_A">
+  
+  <desc id="1" />
+  
+    <rect
+         width="80"
+         height="80"
+         rx="20"
+         ry="20"
+         x="216"
+         y="216"
+         id="buttonShape"
+         style="fill:url(#buttonSurfaceUp);
+		 fill-opacity:1;
+		 stroke:url(#buttonEdgeUp);
+		 stroke-width:4;
+		 stroke-linecap:round;
+		 stroke-miterlimit:4;
+		 stroke-opacity:1;
+		 stroke-dasharray:none;
+		 stroke-dashoffset:0" />
+
+    <rect
+         width="60"
+         height="20"
+         rx="10"
+         ry="10"
+         x="226"
+         y="266"
+         id="buttonLED"
+         style="fill:#ff0000;
+		 fill-opacity:1;
+		 stroke:#000000;
+		 stroke-width:3;
+		 stroke-linecap:round;
+		 stroke-miterlimit:4;
+		 stroke-opacity:1;
+		 stroke-dasharray:none;
+		 stroke-dashoffset:0" />
+		 
+    <text
+		x="256"
+		y="250"
+		text-anchor="middle"
+        id="buttonText"
+        xml:space="preserve"
+        style="font-size:16px;
+		font-style:normal;
+		font-variant:normal;
+		font-weight:normal;
+		font-stretch:normal;
+		line-height:125%;
+		letter-spacing:0px;
+		word-spacing:0px;
+		fill:#000000;
+		fill-opacity:1;
+		stroke:none;
+		font-family:Arial;">
+	Button
+	</text>
+  </g>
+  
+<g class="grpbtn" id="button_B" transform="translate(0,100)">
+
+	<desc id="2" />
+
+    <rect
+         width="80"
+         height="80"
+         rx="20"
+         ry="20"
+         x="216"
+         y="216"
+         id="buttonShape"
+         style="fill:url(#buttonSurfaceUp);
+		 fill-opacity:1;
+		 stroke:url(#buttonEdgeUp);
+		 stroke-width:4;
+		 stroke-linecap:round;
+		 stroke-miterlimit:4;
+		 stroke-opacity:1;
+		 stroke-dasharray:none;
+		 stroke-dashoffset:0" />
+
+    <rect
+         width="60"
+         height="20"
+         rx="10"
+         ry="10"
+         x="226"
+         y="266"
+         id="buttonLED"
+         style="fill:#ff0000;
+		 fill-opacity:1;
+		 stroke:#000000;
+		 stroke-width:3;
+		 stroke-linecap:round;
+		 stroke-miterlimit:4;
+		 stroke-opacity:1;
+		 stroke-dasharray:none;
+		 stroke-dashoffset:0" />
+		 
+    <text
+		x="256"
+		y="250"
+		text-anchor="middle"
+        id="buttonText"
+        xml:space="preserve"
+        style="font-size:16px;
+		font-style:normal;
+		font-variant:normal;
+		font-weight:normal;
+		font-stretch:normal;
+		line-height:125%;
+		letter-spacing:0px;
+		word-spacing:0px;
+		fill:#000000;
+		fill-opacity:1;
+		stroke:none;
+		font-family:Arial;">
+	Button
+	</text>
+  </g>
+  
+  <g class="grpbtn" id="button_C" transform="translate(0,200)">
+  
+	<desc id="3" />
+  
+    <rect
+         width="80"
+         height="80"
+         rx="20"
+         ry="20"
+         x="216"
+         y="216"
+         id="buttonShape"
+         style="fill:url(#buttonSurfaceUp);
+		 fill-opacity:1;
+		 stroke:url(#buttonEdgeUp);
+		 stroke-width:4;
+		 stroke-linecap:round;
+		 stroke-miterlimit:4;
+		 stroke-opacity:1;
+		 stroke-dasharray:none;
+		 stroke-dashoffset:0" />
+
+    <rect
+         width="60"
+         height="20"
+         rx="10"
+         ry="10"
+         x="226"
+         y="266"
+         id="buttonLED"
+         style="fill:#ff0000;
+		 fill-opacity:1;
+		 stroke:#000000;
+		 stroke-width:3;
+		 stroke-linecap:round;
+		 stroke-miterlimit:4;
+		 stroke-opacity:1;
+		 stroke-dasharray:none;
+		 stroke-dashoffset:0" />
+		 
+    <text
+		x="256"
+		y="250"
+		text-anchor="middle"
+        id="buttonText"
+        xml:space="preserve"
+        style="font-size:16px;
+		font-style:normal;
+		font-variant:normal;
+		font-weight:normal;
+		font-stretch:normal;
+		line-height:125%;
+		letter-spacing:0px;
+		word-spacing:0px;
+		fill:#000000;
+		fill-opacity:1;
+		stroke:none;
+		font-family:Arial;">
+	Button
+	</text>
+  </g>
+  
+</svg>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="512"
+   height="512"
+   id="svg3937">
+   
+   	 
+	<script xlink:href="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" />
+    <script xlink:href="doubleslideJS.js" />
+  
+  <g>
+  <path
+     d="M 50,200 
+		  250,200"
+     id="slideLength"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  
+  <circle class="slideHandle" id="lower" cx="50" cy="190" r="10" stroke="black" stroke-width="3" fill="#00FF00" />
+  
+  <circle class="slideHandle" id="upper" cx="250" cy="210" r="10" stroke="black" stroke-width="3" fill="#00FF00" />
+  
+  <path
+     
+	 d="M 50,300 
+	 
+		  100,300
+		  100,250
+		  
+		  200,250
+		  200,300
+		  
+		  250,300
+		  "
+     id="graph"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+	 
+	<text
+		x="50"
+		y="150"
+		text-anchor="middle"
+		id="valLower"
+		xml:space="preserve"
+		style="font-size:16px;
+		font-style:normal;
+		font-variant:normal;
+		font-weight:normal;
+		font-stretch:normal;
+		line-height:125%;
+		letter-spacing:0px;
+		word-spacing:0px;
+		fill:#000000;
+		fill-opacity:1;
+		stroke:none;
+		font-family:Arial;">
+	L
+	</text>
+	
+	<text
+		x="250"
+		y="150"
+		text-anchor="middle"
+		id="valUpper"
+		xml:space="preserve"
+		style="font-size:16px;
+		font-style:normal;
+		font-variant:normal;
+		font-weight:normal;
+		font-stretch:normal;
+		line-height:125%;
+		letter-spacing:0px;
+		word-spacing:0px;
+		fill:#000000;
+		fill-opacity:1;
+		stroke:none;
+		font-family:Arial;">
+	U
+	</text>
+  </g>
+</svg>
